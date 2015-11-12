@@ -1,0 +1,8 @@
+sudo apt-get update
+sudo apt-get install apache2 libapache2-mod-wsgi
+sudo apt-get install git python-pip
+sudo pip install flask
+sudo apt-get install python-dev libmysqlclient-dev
+sudo pip install MySQL-python
+sudo pip install flask-mysql
+
