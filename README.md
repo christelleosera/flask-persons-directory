@@ -9,7 +9,8 @@ A web application built on Flask that takes user input to add feature requests t
 4. [SASS](http://sass-lang.com/) / CSS3
 5. [Bootstrap](http://getbootstrap.com/)
 6. [Bootstrap Validator](http://1000hz.github.io/bootstrap-validator/)
-8. [Bootstrap Datepicker](https://github.com/eternicode/bootstrap-datepicker/)
+7. [Bootstrap Datepicker](https://github.com/eternicode/bootstrap-datepicker/)
+8. jQuery / JavaScript
 
 ##Setup
 To use on your local machine:
