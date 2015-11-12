@@ -1,7 +1,5 @@
 #Simple Create-Read-Update-Delete web app in Python Flask
 
-A web application built on Flask that takes user input to add feature requests to the database.
-
 ##Tech Used
 1. [Python Flask](http://flask.pocoo.org/)
 2. MySQL
