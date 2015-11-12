@@ -1,0 +1,23 @@
+DROP DATABASE IF EXISTS `persons_db`;
+CREATE DATABASE `persons_db`;
+USE `persons_db`;
+
+DROP TABLE IF EXISTS `persons`;
+
+CREATE TABLE `persons` (
+  `persons_id` INTEGER AUTO_INCREMENT,
+  `firstname` VARCHAR(30),
+  `lastname` VARCHAR(30),
+  `birthdate` DATE,
+  `zip` INTEGER,
+  PRIMARY KEY (`persons_id`)
+);
+
+INSERT INTO `persons` (`persons_id`,`firstname`,`lastname`,`birthdate`,`zip`)
+VALUES ('1','Firstname A','Lastname A','1990-11-11','27302');
+INSERT INTO `persons` (`persons_id`,`firstname`,`lastname`,`birthdate`,`zip`)
+VALUES ('2','Firstname B','Lastname B','1991-12-12','48180');
+INSERT INTO `persons` (`persons_id`,`firstname`,`lastname`,`birthdate`,`zip`)
+VALUES ('3','Firstname C','Lastname C','1992-01-01','28086');
+INSERT INTO `persons` (`persons_id`,`firstname`,`lastname`,`birthdate`,`zip`)
+VALUES ('4','Firstname D','Lastname D','1993-02-02','28086');

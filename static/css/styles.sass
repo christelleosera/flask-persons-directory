@@ -1,0 +1,29 @@
+= vendor-prefix($name, $argument)
+  -webkit-#{$name}: #{$argument}
+  -ms-#{$name}: #{$argument}
+  -moz-#{$name}: #{$argument}
+  -o-#{$name}: #{$argument}
+  #{$name}: #{$argument}
+
+body
+  padding: 30px 0 30px 0
+
+.edit_form
+  display: none
+  background: lighten(#000, 93.5%)
+  padding: 20px
+  +vendor-prefix(border-radius, 6px)
+  margin: 5px 0 15px 0
+
+.right-inner-addon
+  position: relative
+
+.edit_btn
+  margin-right: 15px
+  font-size: 14px
+
+.delete_btn 
+  font-size: 14px
+
+.panel-body
+  line-height: 30px
